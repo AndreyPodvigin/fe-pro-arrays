@@ -86,7 +86,6 @@ function every(array, callback) {
       return false;
     }
   }
-
   return true;
 }
 
