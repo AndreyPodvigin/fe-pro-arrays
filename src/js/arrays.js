@@ -54,7 +54,6 @@ function reduce(array, callback, initialValue) {
   for (let i = 0; i < array.length; i++) {
     result += callback(initialValue, array[i], i, array);
   }
-
   return result;
 }
 
@@ -70,7 +69,6 @@ function some(array, callback) {
       return true;
     }
   }
-
   return false;
 }
 
